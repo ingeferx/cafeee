@@ -276,3 +276,53 @@ footer .copyrigh {
     padding: 15px 0;
     color: #fff;
 }
+
+/*---Media Querys---*/
+
+@media screen and (max-width : 800px) {
+    header .contenedor {
+        position: static;
+        height: auto;
+    }
+
+    header .texto {
+        position: static;
+        margin: 100px 0;
+    }
+
+    header .menu {
+        text-align: center;
+    }
+
+    header .menu a {
+        margin: 20px 10px;
+    }
+
+    header .contenedor .texto h1 {
+        font-size: 30px;
+    }
+
+    header .contenedor .texto h3 {
+        font-size: 18px;
+    }
+
+    .main .acerca-de .foto {
+        width: 100%;
+        position: relative;
+    }
+
+    .main .acerca-de article {
+        position: relative;
+        width: 100%;
+    }
+    .main .menu article {
+        width: 100%;
+    }
+    .main .menu {
+        padding-top: 300px;
+    }
+    .main .galeria .foto {
+        width: 50%;
+    }
+
+}
